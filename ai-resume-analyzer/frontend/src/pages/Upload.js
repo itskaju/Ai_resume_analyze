@@ -9,8 +9,7 @@ export default function Upload() {
   const [error, setError] = useState(null);
 
   // ✅ Correct API base
-  const API = "http://127.0.0.1:8000/api/v1";
-
+  const API = "https://ai-resume-analyze-jsrs.onrender.com/api/v1";
   const handleFile = (e) => {
     setFile(e.target.files[0]);
   };
